@@ -113,7 +113,7 @@ export async function buildJDK(
 
 async function getOpenjdkBuildResource(usePPRef: Boolean): Promise<void> {
   if (!usePPRef) {
-    await exec.exec(`git clone --depth 1 --branch travaopenjdk-ga https://github.com/TravaOpenJDK/temurin-build-dcevm.git`)
+    await exec.exec(`git clone --depth 1 --branch travaopenjdk-ga https://github.com/liuzhengyang/temurin-build-dcevm.git`)
   }
 }
 

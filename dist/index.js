@@ -200,7 +200,7 @@ exports.buildJDK = buildJDK;
 function getOpenjdkBuildResource(usePPRef) {
     return __awaiter(this, void 0, void 0, function* () {
         if (!usePPRef) {
-            yield exec.exec(`git clone --depth 1 --branch travaopenjdk-ga https://github.com/TravaOpenJDK/temurin-build-dcevm.git`);
+            yield exec.exec(`git clone --depth 1 --branch travaopenjdk-ga https://github.com/liuzhengyang/temurin-build-dcevm.git`);
         }
     });
 }
